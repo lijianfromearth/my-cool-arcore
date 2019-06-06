@@ -1,0 +1,122 @@
+{
+  animations: [
+    {
+      path: 'sampledata/plan.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_43',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '5',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_44',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '9',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/plan.fbx',
+    name: 'plan',
+    recenter: 'root',
+    scale: 200,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\plan.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'plan.fbm\\5.png',
+    },
+    {
+      file: 'sampledata\\plan.fbm\\7.png',
+      name: '7',
+      pipeline_name: 'plan.fbm\\7.png',
+    },
+    {
+      file: 'sampledata\\plan.fbm\\9.png',
+      name: '9',
+      pipeline_name: 'plan.fbm\\9.png',
+    },
+    {
+      file: 'sampledata\\plan.fbm\\11.png',
+      name: '11',
+      pipeline_name: 'plan.fbm\\11.png',
+    },
+  ],
+  version: '0.54:2',
+}
